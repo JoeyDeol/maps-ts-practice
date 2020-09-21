@@ -1,6 +1,8 @@
 import { User } from './User';
+import { Company } from './Company';
 
-const newPerson = new User;
-const name = newPerson.name;
+const user = new User;
+const company = new Company;
 
-console.log('logging out name', name); 
+console.log(user);
+console.log(company);
